@@ -1,0 +1,8 @@
+.pytest_cache
+.pytype
+__pycache__
+alembic/__pycache__
+alembic/versions/__pycache__
+models/__pycache__
+routers/__pycache__
+tests/__pycache__
