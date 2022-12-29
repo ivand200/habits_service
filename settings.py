@@ -6,6 +6,8 @@ class Settings(BaseSettings):
     database_habits: str
     BACKEND: str
     AUTH_SERVICE: str
+    Rabbit_host: str
+    Rabbit_chanel: str
 
     class Config:
         env_file = ".env"
